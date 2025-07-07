@@ -1,4 +1,4 @@
-# 🏥 Health Insurance Cost Predictor
+# 🏥 Health Insurance app
 
 A simple and interactive *Streamlit web application* that predicts an individual's health insurance charges based on personal information such as age, BMI, smoking status, and more.
 
