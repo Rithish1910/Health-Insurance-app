@@ -1,42 +1,38 @@
-# 🏥 Health Insurance app
+# 🏥 Health Insurance Management App
 
-A simple and interactive *Streamlit web application* that predicts an individual's health insurance charges based on personal information such as age, BMI, smoking status, and more.
+A web-based *Health Insurance App* built using *Python and Streamlit*, designed to help users register, explore insurance plans, and manage their health insurance policies.
 
 ---
 
 ## 📌 Overview
 
-This project uses a *trained Machine Learning model* to estimate the cost of health insurance premiums. The user inputs their details, and the app outputs the predicted insurance cost in real time.
+This application serves as a simple and user-friendly platform for health insurance services. Users can:
+
+- Register as a customer
+- View and compare health insurance plans
+- Apply for a plan
+- Manage and update their insurance details
+
+All user data and plans are stored in a backend database (e.g., SQLite or MySQL).
 
 ---
 
 ## 🚀 Features
 
-- 🎯 Predict health insurance charges
-- 📊 Easy input of personal health details
-- 📈 Uses a pre-trained regression model (e.g., Linear Regression or Random Forest)
-- 🧠 ML Model trained on the *Medical Cost Personal Dataset*
-- 🌐 Simple UI powered by *Streamlit*
+- 🧑‍💼 User registration and login system
+- 📑 View available health insurance plans
+- 📝 Apply for a health insurance plan
+- 📂 View policy status and details
+- 🗃 Admin panel (optional): Add/update/delete plans
+- 💾 Stores user and plan data in a database
 
 ---
 
-## 🧾 Input Fields
+## 🧾 Modules
 
-- Age  
-- Sex (Male/Female)  
-- BMI (Body Mass Index)  
-- Number of children  
-- Smoking status (Yes/No)  
-- Region (Northeast, Northwest, Southeast, Southwest)
+- User Registration: Collects personal and contact details.
+- Plan Listing: Displays all available insurance plans.
+- Apply for Plan: Lets a registered user apply for an insurance plan.
+- View Policy: Allows users to see their current active policies.
+- Database: Stores all records including user info and plan info.
 
----
-
-## 🧠 Model
-
-The backend uses a *regression model* (e.g., Linear Regression, Random Forest) trained on the *Medical Cost Personal Dataset*.
-
-Model is trained on features to predict charges (insurance cost).
-
----
-
-## 📁 Project Structure
